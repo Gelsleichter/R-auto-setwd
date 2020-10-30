@@ -1,7 +1,7 @@
 ############################################################################################
-### R script: Auto Arima for multiple time series
+### R script: Auto Set R Working Directory ::: setwd()
 ### Version: 0.1, November 2020
-### Yuri Andrei Gelsleichter and Rafael Delgado
+### Yuri Andrei Gelsleichter
 ### License: CC-BY-NC-SA
 ############################################################################################
 #    ___                __                   __            __

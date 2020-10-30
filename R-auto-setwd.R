@@ -15,13 +15,19 @@
 
 ### Set and check the working directory AUTOMATICALLY
 ### Auto setwd
+### Install the needed package
 install.packages("rstudioapi")
+
+### Load the needed package, and proceeed with the commands
 library(rstudioapi); current_path <- getActiveDocumentContext()$path; setwd(dirname(current_path)) ### https://eranraviv.com/r-tips-and-tricks-working-directory/
+
+### Check the working directory
 getwd()
 gc(); rm(list=ls())
 
 ### load the data
 df <- read.csv("data_t.csv")
 
+### etc
 
 ### credits: https://eranraviv.com/r-tips-and-tricks-working-directory/
